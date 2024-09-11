@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>테스트몬셜 그리드</title>
+  </head>
+  <body class="bg-gray-200">
+    <!-- 글로벌 컨테이너 -->
+    <div class="container mx-auto max-w-7xl p-2 md:p-10">
+      <!-- 그리드 컨테이너 -->
+      <div
+        class="grid gap-6 grid-cols-1 text-white md:grid-cols-4 md:grid-rows-2"
+      >
+        <!-- 박스 1 -->
+        <div class="relative p-10 rounded-xl bg-purple-700 md:col-span-2">
+          <!-- 인용 이미지 -->
+          <img
+            src="images/bg-pattern-quotation.svg"
+            alt=""
+            class="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
+          />
+          <!-- 박스 헤더 -->
+          <div class="flex z-10 space-x-4">
+            <img
+              src="images/image-daniel.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">다니엘 클리포드</h4>
+              <p class="opacity-50">인증된 졸업생</p>
+            </div>
+          </div>
+
+          <!-- 큰 텍스트 -->
+          <p class="relative z-10 mt-6 text-xl">
+            저는 코스 중반에 취업 제안을 받았고, 배운 과목들은 제가 합류한 회사에서도 최신 기술이었습니다. 정말 가치 있는 교육이라고 느꼈습니다.
+          </p>
+
+          <!-- 작은 텍스트 -->
+          <p class="mt-6 opacity-50 line-clamp-6">
+            "저는 부트캠프에 참여하기 전까지 오랫동안 구급대원으로 일했습니다. 전환을 하고 싶었고, 이곳에서 좋은 경험을 했다는 이야기를 듣고 등록했습니다. 무료 소개 과정을 듣고 매우 재미있다는 것을 느꼈고 바로 등록했습니다. 이후 12주는 제 인생에서 가장 힘들지만 최고의 시간이었습니다. 과정을 마친 후 VR 스타트업에서 소프트웨어 엔지니어로 일하며 커리어 전환에 성공했습니다. "
+          </p>
+
+          
+        </div>
+
+        <!-- 박스 2 -->
+        <div class="p-10 rounded-xl bg-gray-600">
+          <!-- 박스 헤더 -->
+          <div class="flex space-x-4">
+            <img
+              src="images/image-jonathan.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">조나단 월터스</h4>
+              <p class="opacity-50">인증된 졸업생</p>
+            </div>
+          </div>
+
+          <!-- 큰 텍스트 -->
+          <p class="mt-6 text-xl">
+            팀원들이 매우 지원을 잘해주었고, 계속 동기부여를 받을 수 있었습니다.
+          </p>
+
+          <!-- 작은 텍스트 -->
+          <p class="mt-6 opacity-50 line-clamp-5">
+            "저는 거의 코딩 지식이 없는 상태로 시작했지만, 이제는 큰 회사에서 모바일 엔지니어로 일하고 있습니다. 제 자신에게 내린 최고의 투자 중 하나였습니다."
+          </p>
+        </div>
+
+        <!-- 박스 3 -->
+        <div
+          class="hidden p-10 rounded-xl text-gray-900 bg-white md:block md:row-span-2"
+        >
+          <!-- 박스 헤더 -->
+          <div class="flex space-x-4">
+            <img
+              src="images/image-kira.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">키라 휘틀</h4>
+              <p class="opacity-50">인증된 졸업생</p>
+            </div>
+          </div>
+
+          <!-- 큰 텍스트 -->
+          <p class="mt-6 text-xl">
+            인생을 바꾸는 경험이었습니다. 적극 추천합니다!
+          </p>
+
+          <!-- 작은 텍스트 -->
+          <p class="mt-6 opacity-50">
+            "부트캠프에 참여하기 전에 저는 한 번도 코드를 작성해 본 적이 없었습니다. 프로그래밍을 체계적으로 배울 수 있는 곳이 필요했죠. 졸업생이 프로그램에 대해 극찬을 하면서 저를 격려해 등록하게 되었고, 그들은 결코 실망시키지 않았습니다."
+          </p>
+        </div>
+
+        <!-- 박스 4 -->
+        <div class="p-10 rounded-xl text-gray-900 bg-white">
+          <!-- 박스 헤더 -->
+          <div class="flex space-x-4">
+            <img
+              src="images/image-jeanette.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">자넷 하먼</h4>
+              <p class="opacity-50">인증된 졸업생</p>
+            </div>
+          </div>
+
+          <!-- 큰 텍스트 -->
+          <p class="mt-6 text-xl">
+            정말 멋진 경험이었습니다.
+          </p>
+
+          <!-- 작은 텍스트 -->
+          <p class="mt-6 opacity-50">
+            "이 멋진 경험에 감사드립니다! 지금은 정말 즐기면서 일할 수 있는 직장을 가졌습니다."
+          </p>
+        </div>
+
+        <!-- 박스 5 -->
+        <div class="p-10 rounded-xl bg-gray-900 md:col-span-2">
+          <!-- 박스 헤더 -->
+          <div class="flex space-x-4">
+            <img
+              src="images/image-patrick.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">패트릭 에이브럼스</h4>
+              <p class="opacity-50">인증된 졸업생</p>
+            </div>
+          </div>
+
+          <!-- 큰 텍스트 -->
+          <p class="mt-6 text-xl">
+            부트캠프를 수료한 TA들의 훌륭한 지원이 정말 놀라웠습니다.
+          </p>
+
+          <!-- 작은 텍스트 -->
+          <p class="mt-6 opacity-50">
+            "진행 과정에서 매우 개인적인 관심을 받으며 성장할 수 있었습니다."
+          </p>
+        </div>
+
+        <!-- 박스 6 -->
+        <div class="p-10 rounded-xl text-gray-900 bg-white md:hidden">
+          <!-- 박스 헤더 -->
+          <div class="flex space-x-4">
+            <img
+              src="images/image-kira.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">키라 휘틀</h4>
+              <p class="opacity-50">인증된 졸업생</p>
+            </div>
+          </div>
+
+          <!-- 큰 텍스트 -->
+          <p class="mt-6 text-xl">
+            인생을 바꾸는 경험이었습니다. 적극 추천합니다!
+          </p>
+
+          <!-- 작은 텍스트 -->
+          <p class="mt-6 opacity-50">
+            "저는 부트캠프에 들어오기 전에 한 번도 코딩을 해 본 적이 없었습니다. 전문가들이 차근차근 코딩을 가르쳐주셔서 큰 도움이 되었습니다."
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
